@@ -1,2 +1,2 @@
 # reccomendEngine
-A simple music recommendation engine in Python
+A simple friend recommendation engine in Python
