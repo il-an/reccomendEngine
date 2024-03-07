@@ -1,2 +1,2 @@
 networkx
-networkx-viewer
+matplotlib

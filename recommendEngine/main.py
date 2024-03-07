@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 import networkx as nx
-import networkx_viewer
 import time
 import recommendation
+import matplotlib.pyplot as plt
 
 n = input("Enter the number of users: ")
 
@@ -23,11 +23,12 @@ for i in range(int(n)):
 
 print("The graph has been created")
 print("The graph is being displayed...")
-print("To continue close the window")
 # showing the graph
 time.sleep(5)
-app = networkx_viewer.Viewer(g)
-app.mainloop()
+nx.draw(g, with_labels=True)
+plt.draw()
+plt.show()
+
 # recommending friends
 n = input("How many users do you want to find the friends for:")
 for i in range(int(n)):
