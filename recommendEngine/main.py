@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
-import networkx as nx
-import recommendation
 import matplotlib.pyplot as plt
+import networkx as nx
+
+import recommendation
 
 n = input("Enter the number of users: ")
 
@@ -47,4 +48,3 @@ for i in range(int(n)):
         print(friend, end=", ")
         cnt += 1
     print()
-
