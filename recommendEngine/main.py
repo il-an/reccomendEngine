@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 import networkx as nx
-import time
 import recommendation
 import matplotlib.pyplot as plt
 
@@ -24,7 +23,6 @@ for i in range(int(n)):
 print("The graph has been created")
 print("The graph is being displayed...")
 # showing the graph
-time.sleep(5)
 nx.draw(g, with_labels=True)
 plt.draw()
 plt.show()
