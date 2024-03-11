@@ -22,7 +22,7 @@ for i in range(n):
 
 n = len(g.nodes)
 # entering the edges
-for i in g.nodes.items():
+for i in list(g):
     m = input(f"Enter the number of friends of {i[0]}: ")
     if not m.isdigit():
         print("Not a number!")
